@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2: Робота з HTTP-запитами</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Завдання 2: Робота з HTTP-запитами</h1>
+        <a href="index.html">На головну</a>
+        
+        <div class="task-content">
+            <h2>Список користувачів</h2>
+            <button id="loadUsersBtn">Завантажити список користувачів</button>
+            
+            <div class="user-search">
+                <h3>Пошук користувача за ID</h3>
+                <input type="number" id="userId" placeholder="Введіть ID користувача" min="1" max="10">
+                <button id="findUserBtn">Знайти</button>
+            </div>
+            
+            <div id="userResult" class="result">Тут з'явиться інформація про користувача</div>
+            
+            <div id="usersList"></div>
+            
+            <div class="info">
+                <h3>Опис завдання:</h3>
+                <ul>
+                    <li>Завантаження списку користувачів з JSONPlaceholder API</li>
+                    <li>Створення функції fetchUserById(id), яка приймає id користувача та повертає його дані</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/task2.js"></script>
+</body>
+</html>

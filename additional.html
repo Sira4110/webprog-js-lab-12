@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Додаткові завдання</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Додаткові завдання</h1>
+        <a href="index.html">На головну</a>
+        
+        <div class="task-content">
+            <h2>Пости з можливістю оновлення та переглядом коментарів</h2>
+            
+            <div class="controls">
+                <button id="loadPostsBtn">Завантажити пости</button>
+                <button id="refreshPostsBtn">Оновити</button>
+            </div>
+            
+            <div id="postsList"></div>
+            
+            <h2>Галерея фотографій</h2>
+            <button id="loadPhotosBtn">Завантажити фотографії</button>
+            <div id="photoGallery" class="photo-gallery"></div>
+            
+            <div class="info">
+                <h3>Опис додаткових завдань:</h3>
+                <ol>
+                    <li>Додати кнопку "Оновити", яка очищає список постів і завантажує їх заново</li>
+                    <li>Реалізувати функцію fetchComments(postId), яка отримує коментарі до певного поста</li>
+                    <li>Отримати список фото з JSONPlaceholder API і вивести їх у вигляді зображень на сторінці</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/additional.js"></script>
+</body>
+</html>

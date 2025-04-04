@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 3: Реалізація пагінації</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Завдання 3: Реалізація пагінації</h1>
+        <a href="index.html">На головну</a>
+        
+        <div class="task-content">
+            <h2>Список постів</h2>
+            
+            <div class="controls">
+                <button id="loadMoreBtn">Завантажити ще</button>
+            </div>
+            
+            <div id="postsList"></div>
+            
+            <div class="info">
+                <h3>Опис завдання:</h3>
+                <ul>
+                    <li>Створити функцію fetchPosts(page, limit), яка отримує page (номер сторінки) та limit (кількість записів на сторінку)</li>
+                    <li>При першому завантаженні сторінки відобразити перші N постів</li>
+                    <li>Додати кнопку "Завантажити ще", яка завантажує наступну сторінку постів</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/task3.js"></script>
+</body>
+</html>
